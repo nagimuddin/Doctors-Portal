@@ -1,5 +1,6 @@
 import React from "react";
 import chair from '../../assets/images/chair.png';
+import PrimaryBtn from "../Shared/PrimaryBtn";
 
 const Bennar = () => {
   return (
@@ -13,7 +14,7 @@ const Bennar = () => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className="btn btn-primary text-white font-bold bg-gradient-to-r from-secondary to-primary ">GET STARTED</button>
+          <PrimaryBtn></PrimaryBtn>
         </div>
       </div>
     </div>
