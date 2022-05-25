@@ -5,7 +5,7 @@ import PrimaryBtn from "../Shared/PrimaryBtn";
 const Treatment = () => {
   return (
     <div className="container">
-      <div className="card card-side bg-base-100 shadow-xl">
+      <div className="card card-side bg-base-100 shadow-xl grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <figure>
         <img src={treatment} alt="treatment" />
       </figure>
