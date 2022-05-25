@@ -7,15 +7,15 @@ const MakeAppointment = () => {
   return (
     <section
       style={{ background: `url(${appointment})` }}
-      className="flex flex-col md:flex-row justify-center items-center my-[100px]"
+      className="flex flex-col md:flex-row justify-center items-center my-24 text-white"
     >
       <div className="flex-1">
         <img className="mt-[-100px]" src={doctorsmall} alt="" />
       </div>
       <div className="flex-1">
         <h3 className="text-xl text-primary font-bold">Appointment</h3>
-        <h2 className="text-3xl">Make An Appointment Today</h2>
-        <p>
+        <h2 className="text-3xl my-5">Make An Appointment Today</h2>
+        <p className="mb-5">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsumis that it has a more-or-less normal distribution of
