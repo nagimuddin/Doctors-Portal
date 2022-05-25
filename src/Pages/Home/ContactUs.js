@@ -12,16 +12,16 @@ const ContactUs = () => {
         <input
           type="text"
           placeholder="Email Address"
-          class="input input-bordered input-sm w-full mt-5 bg-white"
+          className="input input-bordered input-sm w-full mt-5 bg-white"
         />
         <input
           type="text"
           placeholder="Subject"
-          class="input input-bordered input-md w-full mt-5 bg-white"
+          className="input input-bordered input-md w-full mt-5 bg-white"
         />
         <textarea
           placeholder="Your Message"
-          class="input input-bordered input-lg w-full mt-5 bg-white"
+          className="input input-bordered input-lg w-full mt-5 bg-white"
         ></textarea>
         <div className="text-center">
           <button className="btn btn-success my-3 px-12">Submit</button>
